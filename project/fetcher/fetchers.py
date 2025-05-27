@@ -1,6 +1,12 @@
 import requests
 from bs4 import BeautifulSoup
 
+# 1. 현재 날짜를 구한다.
+# 2. 현재 날짜에 해당하는 행을 구한다
+# 3. 이 중, 양수인 값만 가지고 집계한다
+# 4. 집계 후, 총 건수(양수인 것만) + 총 합계(양수인 것만)
+def get_data_from_excel(url, params={}):
+    pass
 
 def get_data_from_server(url, params={}):
     response = requests.post(url, data=params)
