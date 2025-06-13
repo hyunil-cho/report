@@ -10,6 +10,6 @@ def start(options:dict={}):
         "min_total": 0
     }
 
-    get_data_from_server("https://culcom.co.kr/cs/sporex/check_successrate.php", params)
+    get_data_from_server("localhost:8080", params)
 
 
